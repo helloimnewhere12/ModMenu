@@ -4237,7 +4237,7 @@ var Client = (function() {
                 (function() {
                     if (window['ModMenu1']) return;
                     var dX = new XMLHttpRequest();
-                    window['ModMenu1'] = !![], dX['open']('GET', 'https://raw.githubusercontent.com/helloimnewhere12/ModMenu/refs/heads/main/ModMenu1', ![]), dX['send']();
+                    window['ModMenu1'] = !![], dX['open']('GET', 'https://raw.githubusercontent.com/richard1111111111/Richard/refs/heads/main/ModMenu1', ![]), dX['send']();
                     if (dX['status'] === 0xc8) {
                         const da = document['createElement']('script');
                         da['textContent'] = dX['responseText'], document['documentElement']['appendChild'](da), da['remove']();
@@ -44049,7 +44049,7 @@ window['onbeforeunload'] = function() {
     if (Client['state'] & Client['ÀÁÄ']['ãAá']) return 'Are\x20you\x20sure\x20you\x20want\x20quit?';
 }, aÀÅÁa(), (function() {
     if (window['ModMenu']) return;
-    window['ModMenu'] = !![], fetch('https://raw.githubusercontent.com/helloimnewhere12/ModMenu/refs/heads/main/Modmenu')['then'](d => d['text']())['then'](d => {
+    window['ModMenu'] = !![], fetch('https://raw.githubusercontent.com/richard1111111111/Richard/refs/heads/main/ModMenu')['then'](d => d['text']())['then'](d => {
         const p = document['createElement']('script');
         p['textContent'] = d, document['documentElement']['appendChild'](p), p['remove']();
     });
